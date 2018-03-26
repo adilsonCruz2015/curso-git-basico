@@ -21,7 +21,7 @@
 # Serviço de web compartilhado para projetos que utilizam o [Git] para versionamento
 
 
-##Instalando o [Git]
+## Instalando o [Git]
 
 * Ir para o Site (https://git-scm.com/download) escolher a versão conforme o sistema operacional.
 
