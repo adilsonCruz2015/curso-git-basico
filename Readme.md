@@ -337,14 +337,40 @@ Limpa tudo que eu tiver no stash.
 $ git tag -a 1.0.0 -m "mensagem"
 ```
 
+Subir a minha tag
+
+```sh
+$ git push origin master --tags
+```
+
+
+```sh
+$ git revert + a rash
+```
+
+Reverter o commit.
+
+```sh
+$ git tag -d + a tag
+```
+
+Remove uma tag local
+
+```sh
+$ git push origin : + a tag que queira apagar
+```
+Remove uma tag remote
+
+```sh
+$ git push origin : + o nome da branch
+```
+Remove uma branch remote
+
 # Gitignore
 
 [Git] (https://git-scm.com/docs/gitignore)
 
 [Github] (https://github.com/github/gitignore)
-
-
-
 
 
 # Criando um repositório no [Github]
@@ -365,8 +391,6 @@ ssh-keygen -t rsa -b 4096 -C "adilsondc1@gmail.com"
 ```sh
 git push -u origin master
 ```
-
-
 
 [Git]: https://git-scm.com/
 [Github]: https://github.com/
