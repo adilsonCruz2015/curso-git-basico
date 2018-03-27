@@ -91,7 +91,7 @@ $ cd  "nome do proijeto sem as aspas" . Depois apertar a tecla enter.
 $ git init . Depois apertar a tecla enter.
 ```
 
-## ele é responsável por inicializar o respositório e ficar olhando as mudanças que ocorrem dentro do projeto.
+## Ele é responsável por inicializar o respositório e ficar olhando as mudanças que ocorrem dentro do projeto.
  
 ```sh
 $ ls -la . Depois apertar a tecla enter.
@@ -119,17 +119,17 @@ $ cd .. apertar a tecla enter.
 
 o [Git] separa em 4 estados bem definidos como os arquivos vão ser.
 
-* untrackes
-Momento em que o arquivo acabou de ser adicionado no repositório, mas inda não foi visto pelo [Git].
+* untrackes:
+momento em que o arquivo acabou de ser adicionado no repositório, mas inda não foi visto pelo [Git].
 
-* unmodified
-Momento em que o arquivo é adicionado no [Git]. Ou seja ele não foi modificado. Ele existe no [Git], mas não houve nehuma alterção.
+* unmodified:
+momento em que o arquivo é adicionado no [Git]. Ou seja ele não foi modificado. Ele existe no [Git], mas não houve nehuma alterção.
 
-* modified
-Momento em que o arquivo recebe lguma alteração.
+* modified:
+momento em que o arquivo recebe lguma alteração.
 
-* staged
-Momento em que o arquivo é alterado e jogado em uma área aonde vai ser criada a versão.
+* staged:
+momento em que o arquivo é alterado e jogado em uma área aonde vai ser criada a versão.
 
 Momento em que o arquivo vai ficar la sendo avisado. No momento em que a versão for fechada leve esses arquivo. E assim que o commit for efetuado, é criado um rash e todos os
 arquivos voltam para o estado unmodified.
@@ -231,6 +231,12 @@ $ git checkout + nome do arquivo. apertar a tecla enter.
 ```
 Agora sim foi desfeito.
 
+```sh
+git clone git@github.com:adilsonCruz2015/curso-git-basico.git + nome de sua preferência.
+```
+
+Clonar um repositório.
+
 
 Caso tenha feito o commit, e queria reverter digite o comando.
 
@@ -253,6 +259,93 @@ $ git reset --mixed + a rash. não a rah atual e sim a anterior.
 $ git reset --hard + a rash. não a rah atual e sim a anterior.
 ```
 
+# Criando uma brenches
+
+```sh
+$ git checkout -b + nome da branches
+```
+
+```sh
+$ git checkout branch
+```
+
+Lista as branch
+
+
+```sh
+$ git checkout + nome da branch
+```
+
+Seleciona a branch
+
+```sh
+$ git branch -D + nome da branch
+```
+
+Remover uma branch
+
+
+```sh
+$ git merge + nome da branch
+```
+
+Merge
+
+```sh
+$ git rebase + nome da branch
+```
+
+Rebase
+
+
+```sh
+$ git stash
+```
+Guarda as alterações em um lugar especifico para ser usado depois.
+
+
+```sh
+$ git stash apply
+```
+
+Aplica as mudanças que eu tinha guardado.
+
+
+```sh
+$ git stash list
+```
+
+Mostra todos os stash que eu estou fazendo.
+
+
+```sh
+$ git stash clear
+```
+
+## Criando Alias
+
+```sh
+$ git config --global alias.s + o nome do comando por exemplo Status
+```
+
+Limpa tudo que eu tiver no stash.
+
+
+## Criando Tags
+
+```sh
+$ git tag -a 1.0.0 -m "mensagem"
+```
+
+# Gitignore
+
+[Git] (https://git-scm.com/docs/gitignore)
+
+[Github] (https://github.com/github/gitignore)
+
+
+
+
 
 # Criando um repositório no [Github]
 
@@ -269,7 +362,9 @@ ssh-keygen -t rsa -b 4096 -C "adilsondc1@gmail.com"
 
 # Enviar um repositório existente a partir da linha de comando
 
-
+```sh
+git push -u origin master
+```
 
 
 
