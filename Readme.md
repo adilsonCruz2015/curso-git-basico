@@ -12,7 +12,7 @@
 
 * Velocidade
 * Design simples
-* Suporte robusto a desenvolvimento não linear (milhares de branches paralelos)
+* Suporte robusto a desenvolvimento não linear (milhares de branchs paralelos)
 * Totalmente distribuído
 * Capaz de lidar eficientemente com grandes projetos como o kernel do linux
 
@@ -105,7 +105,7 @@ $ ls -la . Depois apertar a tecla enter.
 $ cd  .git/ . Depois apertar a tecla enter.
 ```
 
-## Ele mostra algumas pastas que são responsável por guardar as informações do repositório, qual é a branches padrão que esta está, quais são as brenches existente no projeto,
+## Ele mostra algumas pastas que são responsável por guardar as informações do repositório, qual é a branchs padrão que esta está, quais são as branchs existente no projeto,
 descrição hooks que são gatilhos e outras informações de objetos e referencias.
 
 ## Voltar para o diretório do projeto
@@ -259,10 +259,10 @@ $ git reset --mixed + a rash. não a rah atual e sim a anterior.
 $ git reset --hard + a rash. não a rah atual e sim a anterior.
 ```
 
-# Criando uma brenches
+# Criando uma branchs
 
 ```sh
-$ git checkout -b + nome da branches
+$ git checkout -b + nome da branchs
 ```
 
 ```sh
