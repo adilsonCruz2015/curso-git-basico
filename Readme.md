@@ -266,7 +266,7 @@ $ git checkout -b + nome da branchs
 ```
 
 ```sh
-$ git checkout branch
+$ git branch -a
 ```
 
 Lista as branch
@@ -279,11 +279,15 @@ $ git checkout + nome da branch
 Seleciona a branch
 
 ```sh
-$ git branch -D + nome da branch
+$ git branch -d + nome da branch
 ```
 
-Remover uma branch
+Remover uma branch local
 
+```sh
+$ it push origin --delete nome da branck
+```
+Remover uma branch remoto
 
 ```sh
 $ git merge + nome da branch
