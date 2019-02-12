@@ -285,7 +285,7 @@ $ git branch -d + nome da branch
 Remover uma branch local
 
 ```sh
-$ it push origin --delete nome da branck
+$ git push origin --delete nome da branck
 ```
 Remover uma branch remoto
 
@@ -387,7 +387,7 @@ Gerando uma nova chave SSH para o [Github]
 # Gerando a chave SSH
 
 ```sh
-ssh-keygen -t rsa -b 4096 -C "adilsondc1@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "e-mail do github"
 ```
 
 # Enviar um repositório existente a partir da linha de comando
