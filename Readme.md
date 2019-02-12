@@ -1,7 +1,3 @@
-# [Git] Instalação e configuração
-
-## Referência https://www.udemy.com/git-e-github-para-iniciantes/learn/v4/content
-
 ## O que é controle de versão?
 
 # Controle de versão tem a finalidade de gerenciar diferentes versões de um documento.
