@@ -1,4 +1,4 @@
-## O que é controle de versão?
+# O que é controle de versão?
 
 # Controle de versão tem a finalidade de gerenciar diferentes versões de um documento.
 # O [Git] trabalha com os estados dos arquivos.
