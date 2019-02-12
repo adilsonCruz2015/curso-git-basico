@@ -326,13 +326,15 @@ Mostra todos os stash que eu estou fazendo.
 $ git stash clear
 ```
 
+Limpa tudo que eu tiver no stash.
+
+
 ## Criando Alias
 
 ```sh
-$ git config --global alias.s + o nome do comando por exemplo Status
-```
+$ git config --global alias.s + o nome do comando por exemplo Status```
 
-Limpa tudo que eu tiver no stash.
+
 
 
 ## Criando Tags
